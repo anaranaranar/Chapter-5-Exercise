@@ -6,11 +6,13 @@ import java.util.Scanner;
 
 public class ExerciseChapter4 {
     static Scanner input = new Scanner(System.in);
-// areaCalc multiplies x(width) by y(height) to calculate area. It then outputs total area (double)
+
+    // areaCalc multiplies x(width) by y(height) to calculate area. It then outputs total area (double)
     static double areaCalc(double x, double y) {
         return x * y;
     }
-// Main method - Ask user to input width and height. It then calls areaCalc with user input
+
+    // Main method - Ask user to input width and height. It then calls areaCalc with user input
 // And finally, prints out the return value of areaCalc
     public static void main(String[] args) {
         System.out.print("Please enter width: ");
